@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+button {
+  background-color: rgb(53, 124, 255);
+  border: none;
+  font-size: 15px;
+  font-style: normal;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+nav {
+  background-color: rgb(53, 124, 255);
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-style: normal;
+  padding: 0 100px;
+  
+}
+.nav_left {
+  display: flex;
+  align-items: center;
+}
+.nav_right {
+  display: flex;
+  align-items: center;
+}
+.nav_left ul {
+  display: flex;
+  list-style-type: none;
+  
+}
+.nav_left li {
+  margin-right: 30px;
+  cursor: pointer;
+}
+#hom {
+  font-size: 20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+#sr {
+  font-size: 18apx;
+  font-weight: 5px;
+  border: none;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+button:hover {
+  text-decoration: underline;
+}
+/* --------------------------------- */
+
+main {
+  background-color: white;
+  padding: 30px 0;
+}
+main .banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  /* background-color: blue; */
+}
+main .infos {
+  height: 70px;
+  /* background-color:white; */
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: space-between;
+}
+.infos img {
+  height: 40px;
+}
+.infos span {
+  margin: 0 10px;
+  color: blue;
+  font-size: 18px;
+}
+.infos .currency {
+  margin: 0 20px;
+  font-size: 14px;
+  margin-right: 7px;
+}
+#icon1 {
+  font-size: 10px;
+  color: rgb(31, 180, 31);
+}
+.infos .sun_img {
+  margin-left: 28px;
+  height: 45px;
+}
+.degree {
+  position: relative;
+}
+
+.infos .degree span {
+  position: absolute;
+  font-size: 12px;
+  left: 8px;
+}
+.gradus select {
+  border: none;
+  border-bottom: 1px dotted gray;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  color: rgba(153, 151, 151, 0.7);
+}
+.yuklash {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  border: 1px solid rgba(177, 174, 174, 0.4);
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 45px;
+  width: 160px;
+}
+.yuklash img {
+  width: 23px;
+  margin-right: 6px;
+}
+.yuklash .texts p {
+  font-size: 12px;
+}
+/* XABARLAR-------------------- */
+/* .xabarlar{
+    height: 400px;
+    background-color: rgb(226, 221, 221);
+  } */
+
+#center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  /* text-align: center; */
+  justify-content: space-between;
+  background-color: rgb(230, 228, 228);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+h1 {
+  margin-bottom: 12px;
+  font-size: x-large;
+  color: royalblue;
+}
+.xabar1 {
+  margin-left: 60px;
+  width: 20%;
+  /* margin-bottom: 20px; */
+  font-size: 20px;
+}
+.xabar2 {
+  width: 40%;
+  font-size: 26px;
+}
+.xabar3 {
+  width: 25%;
+  font-size: 17px;
+}
+.xabar1 p {
+  font-size: smaller;
+}
+
+.xabar2 img {
+  width: 550px;
+  height: 350px;
+}
+.lyangi1 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+  padding-bottom: 25px;
+
+}
+.lyangi2 {
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+  padding-bottom: 25px;
+  flex-direction: column;
+  background-color: rgba(91, 180, 253,0.3);
+}
+.lyangi3 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+  padding-bottom: 25px;
+}
+.lyangi4 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  border-bottom: 1px solid gray;
+}
+.juma1 {
+  font-size: 17px;
+  margin-top: 12px;
+}
+.xabar1 b {
+  font-size: 16px;
+  color: cornflowerblue;
+  font-size: smaller;
+}
+.xabar2 b {
+  color: royalblue;
+  font-size: 16px;
+  font-size: smaller;
+  text-align: center;
+}
+span {
+  font-size: 12px;
+  color: grey;
+}
+.cyangi1 {
+display: flex;
+flex-direction: column;
+}
+.xabar3 b{
+    font-size: 16px;
+  color: cornflowerblue;
+  font-size: smaller;
+}
+.ryangi1{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12px;
+    padding-bottom: 25px;
+  
+}
+.ryangi2{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    
+}
+.ryangi3{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12px;
+    padding-bottom: 25px;
+}
+.ryangi4{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
